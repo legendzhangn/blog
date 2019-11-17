@@ -31,8 +31,8 @@ public class ImageProc {
 		int height = image.getHeight();
 		int pixel;
 		int A, R, G, B;
-		for (int i = 0; i < height; i++)
-			for (int j = 0; j < width; j++)
+		for (int i = 0; i < width; i++)
+			for (int j = 0; j < height; j++)
 			{
 				pixel = image.getRGB(i,j);
 				A = (pixel >> 24) & 0xFF;
