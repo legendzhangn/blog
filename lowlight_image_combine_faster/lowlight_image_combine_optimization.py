@@ -74,7 +74,7 @@ def image_align(rgb_raw_image_group):
     target_group[1] = target_cnt
     return target_group
 
-raw_py = rawpy.imread('images/20200328_105350.dng')
+raw_py = rawpy.imread('images/20200328_105350.dng') # load image
 
 no_auto_bright = 1;
 t_white = 0
